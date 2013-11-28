@@ -43,7 +43,7 @@ print some text
 
 print yellow text
 
-	repl.warn('hi');
+	repl.warn('seems not to be ok ...');
 
 
 
@@ -51,7 +51,15 @@ print yellow text
 
 print red text
 
-	repl.error('hi');
+	repl.error('nope, there was a problem');
+
+
+
+### repl.success()
+
+print green text
+
+	repl.success('yeah, that was successhul!');
 
 
 
@@ -69,7 +77,7 @@ ask the user for single line input
 
 Ask the user for a y/n input
 
-	repl.ask('Is the input ok?', function(isOk){
+	repl.confirm('Is the input ok?', function(isOk){
 
 	});
 
@@ -78,3 +86,4 @@ Ask the user for a y/n input
 
 - 0.1.0: Initial Release
 - 0.1.1: Added chainablity
+- 0.1.2: Bugfix in ask api && new success() method
