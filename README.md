@@ -13,7 +13,9 @@ Collect user input from a stream / stdin
 
 ## api
 
-### Contructor
+All functions are chainable
+
+### Constructor
 
 	var Repl = require('ee-repl');
 
@@ -70,3 +72,9 @@ Ask the user for a y/n input
 	repl.ask('Is the input ok?', function(isOk){
 
 	});
+
+
+## CHANGELOG
+
+- 0.1.0: Initial Release
+- 0.1.1: Added chainablity

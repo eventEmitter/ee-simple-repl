@@ -1,7 +1,7 @@
 {
       "name"                        : "ee-simple-repl"
     , "description"                 : "Collect user input from a stream / stdin"
-    , "version"                     : "0.1.0"
+    , "version"                     : "0.1.1"
     , "homepage"                    : "https://github.com/eventEmitter/ee-simple-repl"
     , "author"                      : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
     , "licence"                     : "mit"
@@ -27,7 +27,7 @@
           "mocha"                   : "*"
     }
     , "optionalDependencies": {}
-    , "keywords"                    : []
+    , "keywords"                    : [ "ask", "repl" ]
     , "scripts": {
         "test"                      : "./node_modules/mocha/bin/mocha --reporter spec"
     }
