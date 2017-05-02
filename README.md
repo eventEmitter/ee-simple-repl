@@ -1,5 +1,7 @@
 # ee-simple-repl
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/eventEmitter/ee-simple-repl.svg)](https://greenkeeper.io/)
+
 Collect user input from a stream / stdin
 
 ## installation
