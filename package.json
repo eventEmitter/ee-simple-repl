@@ -21,7 +21,7 @@
         , "ee-event-emitter"        : "*"
         , "ee-types"                : "*"
         , "ee-log"                  : "*"
-        , "ee-project"              : "*"
+        , "ee-project"              : ">=0.2.4"
     }
     , "devDependencies": {
           "mocha"                   : "*"
