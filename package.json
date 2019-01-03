@@ -17,7 +17,7 @@
         "url"                       : "https://github.com/eventEmitter/ee-simple-repl/issues"
     }
     , "dependencies": {
-          "ee-class"                : "*"
+          "ee-class"                : ">=1.4.0"
         , "ee-event-emitter"        : "*"
         , "ee-types"                : "*"
         , "ee-log"                  : "*"
