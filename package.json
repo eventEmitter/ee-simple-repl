@@ -24,7 +24,7 @@
         , "ee-project"              : "*"
     }
     , "devDependencies": {
-          "mocha"                   : "*"
+          "mocha"                   : ">=6.2.1"
     }
     , "optionalDependencies": {}
     , "keywords"                    : [ "ask", "repl" ]
